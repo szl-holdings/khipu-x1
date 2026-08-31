@@ -1,0 +1,22 @@
+{
+  "audit": {
+    "deep_scan_errors": 0,
+    "repositories": 101,
+    "rtl_files_surfaced": 0,
+    "status": "completed"
+  },
+  "mode": "all",
+  "payload_version": "1.0.0",
+  "remote_mutation": false,
+  "scaffold": {
+    "errors": {},
+    "skipped_existing": 0,
+    "unchanged": 0,
+    "written": 33
+  },
+  "tests": {
+    "returncode": 0,
+    "status": "PASS"
+  },
+  "workspace": "/home/user/workspace/khipu-x1-workspace"
+}

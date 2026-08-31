@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/usr/local/bin/python3",
+    "-m",
+    "pytest",
+    "-q"
+  ],
+  "returncode": 0,
+  "status": "PASS",
+  "stderr": "",
+  "stdout": "......                                                                   [100%]\n=============================== warnings summary ===============================\ntests/test_reference.py::test_package_verification_and_duplicate_rejection\n  /usr/local/lib/python3.14/zipfile/__init__.py:1721: UserWarning: Duplicate name: 'graph.json'\n    return self._open_to_write(zinfo, force_zip64=force_zip64)\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n"
+}

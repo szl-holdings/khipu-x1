@@ -1,0 +1,106 @@
+{
+  "schema": "szl-khipu-x1-upstream-map-v1",
+  "status": "SEED_REQUIRES_LIVE_AUDIT",
+  "upstreams": [
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/a11oy",
+      "role": "Governed AI command/control plane; policy, receipts, bounded actions."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-substrate",
+      "role": "Shared agent loop, DSSE, calibration, governed runtime modules."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-khipu",
+      "role": "YARQA canal attention, advisory Lambda gate, TinyKhipu and receipt chains."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-receipt-attn",
+      "role": "Receipt-emitting tiled attention software reference."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/YARQA-ATTN",
+      "role": "YARQA attention kernel packaging and references."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-kernels",
+      "role": "Unified governed kernels and receipt-chain interfaces."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-block-kv",
+      "role": "KV block-map witness/provenance direction."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-maskmod",
+      "role": "Attention mask commitment/provenance direction."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-govsign",
+      "role": "Governance verdict signing and DSSE envelope direction."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-provctl",
+      "role": "Provenance graph and in-toto/SLSA bridge direction."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-blocked",
+      "role": "Fail-closed governed-call behavior."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-invariants",
+      "role": "Cross-estate invariants and integrity contracts."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/governance-as-code",
+      "role": "Policy and receipt support tooling."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-energy-attest",
+      "role": "Measured-energy evidence direction."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-gpu-bridge",
+      "role": "Signed job specifications to owner-controlled GPU metal."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-forge",
+      "role": "Model training, qualification, packaging and release contracts."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/lutar-lean",
+      "role": "Formal proof library and explicit conjecture boundaries."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/szl-nemo",
+      "role": "Open-model wrapper/research lane, not custom silicon."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/anatomy",
+      "role": "Fail-closed organ-integrity model and system visualization."
+    },
+    {
+      "head_sha": "RESOLVE_DURING_AUDIT",
+      "repository": "szl-holdings/ayllu",
+      "role": "Distributed/collective execution concepts."
+    }
+  ]
+}
