@@ -21,7 +21,8 @@ def main() -> int:
 
     args = parser.parse_args()
     if args.command == "demo":
-        from scripts.demo import run_demo
+        from khipu_x1._demo_loader import load_run_demo  # packaged indirection
+        run_demo = load_run_demo()
         summary = run_demo(Path(args.out))
         print(json.dumps(summary, indent=2, sort_keys=True))
         return 0
