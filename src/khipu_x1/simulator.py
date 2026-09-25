@@ -53,8 +53,10 @@ class ExecutionResult:
 
 class KhipuSimulator:
     def __init__(self, execution_path: str = "software_emulator") -> None:
-        if execution_path not in {"software_emulator", "fpga", "asic"}:
-            raise ValueError("invalid execution_path")
+        if execution_path != "software_emulator":
+            raise ValueError(
+                "KhipuSimulator is a software reference; hardware execution paths are unavailable"
+            )
         self.execution_path = execution_path
         self.buffers: dict[str, np.ndarray] = {}
         self.chain = ReceiptChain()

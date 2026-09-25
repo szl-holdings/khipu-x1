@@ -53,6 +53,12 @@ def test_stream_replay_is_rejected():
         ])
 
 
+def test_software_simulator_rejects_hardware_execution_labels():
+    for execution_path in ("fpga", "asic"):
+        with pytest.raises(ValueError, match="software reference"):
+            KhipuSimulator(execution_path=execution_path)
+
+
 def test_gemm_and_rmsnorm_match_reference():
     graph = {
         "model_digest": d("model"),
