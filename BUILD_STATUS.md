@@ -6,7 +6,7 @@
 
 Evidence: `PAYLOAD_RUN_SUMMARY.json`, `MASTER_BUILD_PAYLOAD.md`, `audit/`.
 
-- 101-repo estate audit with source locks (`audit/gap_report.md`, `audit/chip_readiness_matrix.csv`, `audit/seed_upstream_map.json`).
+- Public-repository estate audit with source locks (`audit/gap_report.md`, `audit/chip_readiness_matrix.csv`, `audit/seed_upstream_map.json`).
 - KIDS v0.1 instruction/descriptor spec (`spec/KIDS_v0.1.md`) — DRAFT / SOFTWARE-REFERENCE ONLY.
 - `khipu-x1` 0.1.0 software reference package: explicit graph lowering, `.khipu` package builder/verifier, SHA3-256 receipt chain, RC1 authorization emulator, simulator, CLI.
 - Conformance and tests: PASS at generation time (`PAYLOAD_RUN_SUMMARY.json`, returncode 0).
