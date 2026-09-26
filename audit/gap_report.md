@@ -1,7 +1,7 @@
 # SZL GitHub Estate — Chip Readiness Audit
 
 Organization: `szl-holdings`  
-Repositories observed: **101**  
+Repositories observed: **95**  
 RTL/constraint files surfaced in scanned trees: **0**  
 
 ## Honest conclusion

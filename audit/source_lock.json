@@ -101,12 +101,6 @@
     "head_sha": "40d1b710ac89cecbeee21f97110c761f8b83b950",
     "private": false
   },
-  "szl-holdings/gdw-frontier": {
-    "archived": false,
-    "default_branch": "main",
-    "head_sha": "244345b1f7d972b763f92b33a0e963b535d081d1",
-    "private": true
-  },
   "szl-holdings/governance-as-code": {
     "archived": false,
     "default_branch": "main",
@@ -227,12 +221,6 @@
     "head_sha": "0f030741f567bdf397d33c4d607790af6ed39688",
     "private": false
   },
-  "szl-holdings/pitch-collateral": {
-    "archived": false,
-    "default_branch": "main",
-    "head_sha": "361dee83fe29b39c3ac29739514f375acac5b8ee",
-    "private": true
-  },
   "szl-holdings/platform": {
     "archived": false,
     "default_branch": "main",
@@ -299,12 +287,6 @@
     "head_sha": "5eb303b4d611c14906cbe455c5f2d27999e9c3a4",
     "private": false
   },
-  "szl-holdings/szl-defensive-control-plane": {
-    "archived": false,
-    "default_branch": "main",
-    "head_sha": "0d4c4c14b64d0f950ba5702747e25d9db9168f8e",
-    "private": true
-  },
   "szl-holdings/szl-doctrine": {
     "archived": false,
     "default_branch": "main",
@@ -322,12 +304,6 @@
     "default_branch": "main",
     "head_sha": "aa07e060c1ebead7a16e4e43738ff4bb8551aba8",
     "private": false
-  },
-  "szl-holdings/szl-estate-os": {
-    "archived": false,
-    "default_branch": "main",
-    "head_sha": "4426ff855694dd9b54efd798b60ef8a33885f310",
-    "private": true
   },
   "szl-holdings/szl-experiments": {
     "archived": true,
@@ -455,12 +431,6 @@
     "head_sha": "6e2f91181788679622613eed6b53871301c536e6",
     "private": false
   },
-  "szl-holdings/szl-org-health": {
-    "archived": false,
-    "default_branch": "main",
-    "head_sha": "b5ae9b785cf96dc96ae0fa0ef754a373cfc644ad",
-    "private": true
-  },
   "szl-holdings/szl-organ-integrity": {
     "archived": true,
     "default_branch": "main",
@@ -574,12 +544,6 @@
     "default_branch": "main",
     "head_sha": "341b79deda9094898e018a6152bba0a9b7e003df",
     "private": false
-  },
-  "szl-holdings/szl-v14": {
-    "archived": false,
-    "default_branch": "main",
-    "head_sha": "bb1e37cb0cea63f3278fd2e6ebdaf6e49df16cf9",
-    "private": true
   },
   "szl-holdings/uds-bundles": {
     "archived": true,

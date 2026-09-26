@@ -1,7 +1,7 @@
 {
   "audit": {
     "deep_scan_errors": 0,
-    "repositories": 101,
+    "repositories": 95,
     "rtl_files_surfaced": 0,
     "status": "completed"
   },
