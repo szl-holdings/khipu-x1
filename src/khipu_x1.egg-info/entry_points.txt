@@ -1,2 +1,0 @@
-[console_scripts]
-khipu-x1 = khipu_x1.cli:main
