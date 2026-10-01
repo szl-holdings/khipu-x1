@@ -17,9 +17,18 @@ dev = ["pytest>=8"]
 [project.scripts]
 khipu-x1 = "khipu_x1.cli:main"
 
+[project.urls]
+Homepage = "https://github.com/szl-holdings/khipu-x1"
+Source = "https://github.com/szl-holdings/khipu-x1"
+Issues = "https://github.com/szl-holdings/khipu-x1/issues"
+Changelog = "https://github.com/szl-holdings/khipu-x1/releases"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.pytest.ini_options]
 addopts = "-q"
 testpaths = ["tests"]
+
+[tool.szl.release]
+import_names = ["khipu_x1"] # wheel top-level import names; the release gate fails if the built wheel differs
