@@ -1,5 +1,7 @@
 # KHIPU-X1
 
+[![PyPI](https://img.shields.io/pypi/v/khipu-x1)](https://pypi.org/project/khipu-x1/) [![Python](https://img.shields.io/pypi/pyversions/khipu-x1)](https://pypi.org/project/khipu-x1/)
+
 **FPGA-first governed LLM accelerator reference.**
 
 This repository is a software reference and future hardware workspace. It is not
