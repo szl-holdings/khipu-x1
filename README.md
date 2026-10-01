@@ -1,6 +1,6 @@
 # KHIPU-X1
 
-[![PyPI](https://img.shields.io/pypi/v/khipu-x1)](https://pypi.org/project/khipu-x1/) [![Python](https://img.shields.io/pypi/pyversions/khipu-x1)](https://pypi.org/project/khipu-x1/)
+[![PyPI](https://img.shields.io/pypi/v/khipu-x1)](https://pypi.org/project/khipu-x1/) [![Python](https://img.shields.io/pypi/pyversions/khipu-x1)](https://pypi.org/project/khipu-x1/) [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/szl-holdings/khipu-x1/badge)](https://scorecard.dev/viewer/?uri=github.com/szl-holdings/khipu-x1)
 
 **FPGA-first governed LLM accelerator reference.**
 
