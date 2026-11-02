@@ -19,6 +19,15 @@ Current implemented lane:
 
 Current hardware status: **UNAVAILABLE — target FPGA not selected**.
 
+Package verification checks the v0.1 manifest contract, required JSON graph,
+and exact payload hashes and sizes. Empty or malformed manifests, unsupported
+KIDS versions and claims beyond `SOFTWARE_REFERENCE_ONLY` are rejected. Weight
+files are optional for graphs that need none. Verification does not execute or
+qualify the graph, authenticate its author, or establish hardware readiness.
+The verifier retains the complete archive in memory and computes its package
+digest from exactly the captured bytes it inspected. The returned path is only
+the input location; callers that reopen it must verify those bytes again.
+
 <!-- szl:header v1 -->
 <!-- Native identity: szl-brand@4309f6fce89179331b0b3ed8c99494e76c5be256; Orbit v2 icon. -->
 <p>
