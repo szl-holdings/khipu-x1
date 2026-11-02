@@ -22,6 +22,7 @@ from khipu_x1 import (
     sign_envelope,
     verify_package,
 )
+from khipu_x1.simulator import KhipuExecutionError
 
 
 def d(text: str) -> str:
@@ -87,6 +88,27 @@ def test_receipt_tamper_is_detected():
     chain.events[0]["payload"]["value"] = 2
     ok, index, reason = chain.verify()
     assert not ok and index == 0 and reason == "DIGEST_MISMATCH"
+
+
+@pytest.mark.parametrize("opcode,values,attrs", [
+    (Opcode.GEMM_INT8, {"x": np.array([[127]], dtype=np.int8),
+                        "w": np.array([[127]], dtype=np.int8)}, {"scale": 1e308}),
+    (Opcode.RMSNORM, {"x": np.array([[1e308]], dtype=np.float64)}, {}),
+    (Opcode.RMSNORM, {"x": np.array([[1.0]], dtype=np.float32),
+                      "w": np.array([1e308], dtype=np.float64)}, {}),
+])
+def test_numerical_overflow_cannot_emit_success_receipt(opcode, values, attrs):
+    sim = KhipuSimulator()
+    for name, value in values.items():
+        sim.register_buffer(name, value)
+    descriptor = Descriptor(
+        sequence=1, nonce=1, opcode=opcode, model_digest=d("model"),
+        policy_digest=d("policy"), inputs=tuple(values), output="y", attrs=attrs,
+    )
+    with pytest.raises(KhipuExecutionError, match="NONFINITE_RESULT"):
+        sim.execute([descriptor])
+    assert "y" not in sim.buffers
+    assert sim.chain.events == []
 
 
 def test_rc1_replay_is_rejected():

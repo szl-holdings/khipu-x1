@@ -176,7 +176,11 @@ class KhipuSimulator:
         status = "OK"
         try:
             for descriptor in descriptors:
-                self._execute_one(descriptor)
+                try:
+                    with np.errstate(over="raise", invalid="raise", divide="raise"):
+                        self._execute_one(descriptor)
+                except FloatingPointError as exc:
+                    raise KhipuExecutionError("NONFINITE_RESULT: numerical operation failed") from exc
         except Exception:
             status = "BLOCKED"
             raise
