@@ -70,3 +70,9 @@ PYTHONPATH=src python scripts/demo.py --out ./demo-output
 
 One owner prototype only. No production tooling, mass-production order or ASIC
 tapeout is authorized by this repository.
+
+Estate on Hugging Face: models, datasets and Spaces are published under the [SZLHOLDINGS](https://huggingface.co/SZLHOLDINGS) org.
+
+## License
+
+Apache-2.0 — see [LICENSE](LICENSE).
