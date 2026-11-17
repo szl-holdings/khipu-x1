@@ -4,8 +4,8 @@ doi: 10.5281/zenodo.24240107
 message: If you use this software, please cite it using the metadata from this file.
 type: software
 title: szl-holdings/khipu-x1
-version: 0.1.1
-date-released: '2026-11-05'
+version: 0.1.2
+date-released: '2026-11-17'
 license: Apache-2.0
 url: https://a-11-oy.com
 repository-code: https://github.com/szl-holdings/khipu-x1
